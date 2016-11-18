@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  integracionwp
+//  IntegracionWP
 //
 //  Created by Maestro on 03/11/16.
-//  Copyright © 2016 miranda. All rights reserved.
+//  Copyright © 2016 Maestro. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UITabBar.appearance().tintColor = UIColor.whiteColor()
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent       
+        
+        
         return true
     }
 
